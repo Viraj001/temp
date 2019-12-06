@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 int convertBinaryToDecimal(long long n);
+int r;
 int main()
 {
     long long n;
@@ -12,7 +13,7 @@ int main()
 int convertBinaryToDecimal(long long n)
 {
     int dNum= 0, i = 0;
-    int r=0;
+    
     while (n!=0)
     {
         r = n%10;
