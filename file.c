@@ -12,7 +12,7 @@ int main()
 int convertBinaryToDecimal(long long n)
 {
     int dNum= 0, i = 0;
-    int r=0;;
+    int r=0;
     while (n!=0)
     {
         r = n%10;
