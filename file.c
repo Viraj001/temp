@@ -6,12 +6,13 @@ int main()
     long long n;
     printf("Enter a binary number: ");
     scanf("%lld", &n);
-    printf("%lld in binary = %d in decimal", n, convertBinaryToDecimal(n));
+    printf("%lld = %d in decimal", n, convertBinaryToDecimal(n));
     return 0;
 }
 int convertBinaryToDecimal(long long n)
 {
-    int decimalNumber = 0, i = 0, remainder;
+    int decimalNumber = 0, i = 0;
+    int remainder;
     while (n!=0)
     {
         remainder = n%10;
